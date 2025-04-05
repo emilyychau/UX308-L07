@@ -63,5 +63,19 @@ function yee_Ha(int){
     return output;
   }
 
-export {hello, FtoC, SqftToAcres, TimeToMow, computeAQI, yee_Ha}
+  function calculateSlope(x1, y1, x2, y2){
+    let slope;
+    if (x1 === x2){
+      slope = "The slope of the line is undefined";
+    }
+    else if (y1 === y2){
+      slope = "The slope of the line is undefined";
+    }
+    else {
+      slope = (y2 - y1) / (x2 - x1);
+    }
+    return slope;
+  }  
+
+export {hello, FtoC, SqftToAcres, TimeToMow, computeAQI, yee_Ha, calculateSlope}
 

@@ -1,4 +1,4 @@
-import {hello, FtoC, SqftToAcres, TimeToMow, computeAQI, yee_Ha} from './functions.js';
+import {hello, FtoC, SqftToAcres, TimeToMow, computeAQI, yee_Ha, calculateSlope} from './functions.js';
 
 function Question0(){
     return <section>
@@ -71,4 +71,14 @@ function Question5(){
     </section>
 }
 
-export {Question0, Question1, Question2, Question3, Question4, Question5}
+function Question6(){
+    return <section>
+    <h2>6. Calculate the slope of a line</h2>
+    <h3>Results</h3>
+    <p>calculateSlope(9, 10, 4, -5) == "{calculateSlope(9, 10, 4, -5)}"</p>
+    <p>calculateSlope(2, 0, -4, 7) == "{calculateSlope(2, 0, -4, 7)}"</p>
+    <p>calculateSlope(4, 5, 2, 4) == "{calculateSlope(4, 5, 2, 4)}"</p>
+    </section>
+}
+
+export {Question0, Question1, Question2, Question3, Question4, Question5, Question6}
