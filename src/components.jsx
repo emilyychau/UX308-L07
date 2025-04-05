@@ -1,4 +1,4 @@
-import {hello, FtoC} from './functions.js';
+import {hello, FtoC, SqftToAcres} from './functions.js';
 
 function Question0(){
     return <section>
@@ -22,4 +22,14 @@ function Question1(){
     </section>
 }
 
-export {Question0, Question1}
+function Question2(){
+    return <section>
+2. There are 43,560 square feet per acre. Write a program that converts square feet to acres. 
+    <h2>Results</h2>
+    <p>SqftToAcres(250000) == "{SqftToAcres(250000)}"</p>
+    <p>SqftToAcres(925000) == "{SqftToAcres(925000)}"</p>
+    <p>SqftToAcres(2000000) == "{SqftToAcres(2000000)}"</p>
+    </section>
+}
+
+export {Question0, Question1, Question2}
