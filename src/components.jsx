@@ -64,7 +64,7 @@ function Question4(){
 
 function Question5(){
     return <section>
-    <h2>5. yee_ha takes an integer parameter and returns one of the following strings</h2>
+    <h2>5. yee_Ha takes an integer parameter and returns one of the following strings</h2>
     <li>"Yee" if number is evenly divisible by 3</li>
     <li>"Ha" if number is evenly divisible by 7</li>
     <li>"Yee Ha" if number is evenly divisible by both 3 and 7</li>
