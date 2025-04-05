@@ -1,4 +1,4 @@
-import {hello, FtoC, SqftToAcres, TimeToMow, computeAQI} from './functions.js';
+import {hello, FtoC, SqftToAcres, TimeToMow, computeAQI, yee_Ha} from './functions.js';
 
 function Question0(){
     return <section>
@@ -55,4 +55,20 @@ function Question4(){
     </section>
 }
 
-export {Question0, Question1, Question2, Question3, Question4,}
+function Question5(){
+    return <section>
+    <h2>5. yee_ha takes an integer parameter and returns one of the following strings</h2>
+    <li>"Yee" if number is evenly divisible by 3</li>
+    <li>"Ha" if number is evenly divisible by 7</li>
+    <li>"Yee Ha" if number is evenly divisible by both 3 and 7</li>
+    <li>"Nada" if number is none of the above</li>
+
+    <h3>Results</h3>
+    <p>yee_Ha(21) == "{yee_Ha(21)}"</p>
+    <p>yee_Ha(6) == "{yee_Ha(6)}"</p>
+    <p>yee_Ha(49) == "{yee_Ha(49)}"</p>
+    <p>yee_Ha(2) == "{yee_Ha(2)}"</p>
+    </section>
+}
+
+export {Question0, Question1, Question2, Question3, Question4, Question5}

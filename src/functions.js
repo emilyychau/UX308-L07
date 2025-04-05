@@ -46,5 +46,22 @@ function computeAQI(AQI){
      return AQ;
 }
 
-export {hello, FtoC, SqftToAcres, TimeToMow, computeAQI}
+function yee_Ha(int){
+    let output = "";
+    if (int % 3 === 0 && int % 7 === 0) {
+      output = "Yee Ha";
+    }
+    else if (int & 3 === 0) {
+      output = "Yee";
+    }
+    else if (int % 7 === 0) {
+      output = "Ha";
+    }
+    else {
+      output = "Nada";
+    }
+    return output;
+  }
+
+export {hello, FtoC, SqftToAcres, TimeToMow, computeAQI, yee_Ha}
 
