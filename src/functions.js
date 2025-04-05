@@ -12,5 +12,10 @@ function SqftToAcres(sqft){
     return acres;
  }
 
-export {hello, FtoC, SqftToAcres}
+ function TimeToMow(width, length, mowRate){
+    const mowTime = (width * length) / mowRate;
+    return mowTime;
+}
+
+export {hello, FtoC, SqftToAcres, TimeToMow}
 

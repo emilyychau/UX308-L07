@@ -1,4 +1,4 @@
-import {hello, FtoC, SqftToAcres} from './functions.js';
+import {hello, FtoC, SqftToAcres, TimeToMow} from './functions.js';
 
 function Question0(){
     return <section>
@@ -32,4 +32,14 @@ function Question2(){
     </section>
 }
 
-export {Question0, Question1, Question2}
+function Question3(){
+    return <section>
+3. Given the width of a lawn in metres, length of a lawn in metres and the square metres cut per minute calculate the minutes it would take to mow that lawn.
+    <h2>Results</h2>
+    <p>TimeToMow(2, 5, 1) == "{TimeToMow(2, 5, 1)}"</p>
+    <p>TimeToMow(3, 4, 2) == "{TimeToMow(3, 4, 2)}"</p>
+    <p>TimeToMow(10, 8, 2) == "{TimeToMow(10, 8, 2)}"</p>        
+    </section>
+}
+
+export {Question0, Question1, Question2, Question3}
