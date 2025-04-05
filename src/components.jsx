@@ -1,4 +1,4 @@
-import {hello, FtoC, SqftToAcres, TimeToMow} from './functions.js';
+import {hello, FtoC, SqftToAcres, TimeToMow, computeAQI} from './functions.js';
 
 function Question0(){
     return <section>
@@ -42,4 +42,17 @@ function Question3(){
     </section>
 }
 
-export {Question0, Question1, Question2, Question3}
+function Question4(){
+    return <section>
+    <h2>4. Compute the air quality given an air quality index.</h2>
+    <h3>Results</h3>
+    <p>computeAQI(4) == "{computeAQI(4)}"</p>
+    <p>computeAQI(62) == "{computeAQI(62)}"</p>
+    <p>computeAQI(125) == "{computeAQI(125)}"</p>
+    <p>computeAQI(156) == "{computeAQI(156)}"</p>
+    <p>computeAQI(275) == "{computeAQI(275)}"</p>
+    <p>computeAQI(304) == "{computeAQI(304)}"</p>
+    </section>
+}
+
+export {Question0, Question1, Question2, Question3, Question4,}
