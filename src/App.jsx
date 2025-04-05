@@ -1,9 +1,10 @@
-import {Question0} from './components.jsx';
+import {Question0, Question1} from './components.jsx';
 
 function App() {
   return (
     <>
         <Question0 />    
+        <Question1 />
     </>
   )
 }
